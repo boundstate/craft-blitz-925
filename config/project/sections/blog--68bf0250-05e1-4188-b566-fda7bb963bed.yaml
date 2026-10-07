@@ -1,0 +1,22 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 461f2159-e25b-49e2-a22c-290e5184a522 # Post
+handle: blog
+maxAuthors: 1
+minAuthors: 1
+name: Blog
+previewTargets:
+  -
+    label: 'Primary entry page'
+    refresh: '1'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  226b3481-d26c-45da-87aa-0ec2e52d49af: # Craft Blitz Test
+    enabledByDefault: true
+    hasUrls: true
+    template: blob/_entry.twig
+    uriFormat: 'blob/{slug}'
+type: channel

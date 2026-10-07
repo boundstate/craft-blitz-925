@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: 'Craft Blitz Test'
+primary: true
+siteGroup: 604b0441-e341-4efa-a841-6664d4d5316e # Craft Blitz Test
+sortOrder: 1

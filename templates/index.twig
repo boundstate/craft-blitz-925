@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>Craft Blitz</title>
+</head>
+<body>
+
+<ul>
+    {% for entry in craft.entries().section('blog').public(true).all() %}
+        <li>{{ entry }}</li>
+    {% endfor %}
+</ul>
